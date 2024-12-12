@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(vertical-shot-black-rough-concrete-wall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.888);
+  height: 140px;
+  width: 100%;
+}
+
+#logo {
+  height: 120px;
+  width: 120px;
+}
+
+.nav-links {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linknav {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0.1px solid white;
+}
+
+.linknav:hover {
+  background-color: rgba(255, 255, 255, 0.608);
+  color: black;
+  transition-duration: 1s;
+}
+
+#footer {
+  display: block;
+  flex-direction: row;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.888);
+  color: white;
+  font-style: italic;
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.accueil {
+  text-align: center;
+  width: 600px;
+  height: 350px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.741);
+  border-radius: 70px;
+  padding: 12px;
+}
+
+.accueil-3 {
+  text-align: center;
+  width: 600px;
+  height: 450px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.741);
+  border-radius: 70px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.741);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 0.1px solid white;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.801);
+  color: black;
+  border: 0.1px solid black;
+  transition-duration: 1s;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 100px;
+}
+
+#container-2 {
+  flex-direction: row-reverse;
+}
+
+#container-3 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+#texte-1 {
+  font-size: 25px;
+}
+
+#texte-2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+#texte-3 {
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+#texte-formulaire {
+  font-size: large;
+  margin-top: 25px;
+  text-decoration: underline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#boutton {
+  margin-top: 80px;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#p3 {
+  height: 350px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#titre-accueil {
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.741);
+  border-radius: 5px;
+  font-size: 50px;
+  font-family: serif;
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    height: 100px;
+    width: 100%;
+  }
+  .linknav {
+    font-size: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #container-2 {
+    flex-direction: column;
+  }
+  .accueil {
+    width: 350px;
+    height: 380px;
+  }
+  .accueil-3 {
+    width: 400px;
+    height: 530px;
+    padding: 10px;
+  }
+}
